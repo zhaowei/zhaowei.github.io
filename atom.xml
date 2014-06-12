@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[zhaowei Blog]]></title>
+  <link href="http://www.zhaowei.me/atom.xml" rel="self"/>
+  <link href="http://www.zhaowei.me/"/>
+  <updated>2014-06-11T16:13:33+08:00</updated>
+  <id>http://www.zhaowei.me/</id>
+  <author>
+    <name><![CDATA[zhao wei]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
