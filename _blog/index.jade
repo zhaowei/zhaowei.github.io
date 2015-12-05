@@ -1,0 +1,14 @@
+#main.container.artist
+    header.post-head
+        div.avarta: span: img(src="static/owl.png")
+        h1 zhaowei 的博客
+        p.
+            记录WEB开发，编程，Idea 的地方。
+    ul.post-list
+        for post, slug in public.posts._data
+            li.post-item
+                a(href="/posts/#{ post.slug }")
+                    time.post-date 2015-12-05
+                    h3 #{post.title}
+
+!= partial("_footer")

@@ -1,0 +1,19 @@
+doctype
+html
+  head
+    title= title
+    meta(name="description" content="#{ description }")
+    link(rel="stylesheet" href="/normalize.css")
+    link(rel="stylesheet" href="/main.css")
+  body
+  div#detail
+    header
+        .container
+            h2= title
+            time= publish_time
+            |&nbsp;&nbsp;
+            a(href="/") 返回列表
+    .container
+        != yield
+        
+!= partial("../_footer")
